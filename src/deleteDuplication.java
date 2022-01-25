@@ -4,7 +4,6 @@ public class deleteDuplication {
         if (pHead == null) {
             return null;
         }
-
         ListNode dummy = new ListNode(-1);
         dummy.next = pHead;
         ListNode slow = new ListNode(-1);
