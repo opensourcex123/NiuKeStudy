@@ -10,7 +10,6 @@ class RandomListNode {
         this.label = label;
     }
 }
-
 public class RandomListNodeClone {
     public RandomListNode Clone(RandomListNode pHead) {
         if (pHead == null) return null;
