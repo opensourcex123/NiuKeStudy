@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 // JZ34 二叉树中和为某一值的路径(二)
+// 要从节点的角度去思考问题，而不是深入到它的子树中
 public class FindPath {
     ArrayList<ArrayList<Integer>> res = new ArrayList<>();
     public ArrayList<ArrayList<Integer>> FindPath(TreeNode root,int expectNumber) {
